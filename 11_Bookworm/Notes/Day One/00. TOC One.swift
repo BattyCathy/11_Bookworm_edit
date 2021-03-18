@@ -16,6 +16,7 @@ import Foundation
 //This is often shortened to "write stupid code that uses smart objects," and as you'll see objects don't get much smarter than when they are backed by Core Data!
 
 //MARK: Today you have four topic to work thorugh, in which you'll learn about @Binding, type erasure, Core Data, and more
+
 // 01. Bookworm: Introduction
 
 //02. Creating a Custom Component with @Binding

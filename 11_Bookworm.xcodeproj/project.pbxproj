@@ -114,11 +114,11 @@
 		B1826F362603DCA600C8FC20 /* Day One */ = {
 			isa = PBXGroup;
 			children = (
-				B1826F372603DCA600C8FC20 /* 04. How to combine Core Data and SwiftUI.swift */,
 				B1826F382603DCA600C8FC20 /* 00. TOC One.swift */,
 				B1826F392603DCA600C8FC20 /* 01. Bookworm introduction.swift */,
 				B1826F3A2603DCA600C8FC20 /* 02. Crating a custom component with @Binding.swift */,
 				B1826F3B2603DCA600C8FC20 /* 03. Using size classes with AnyView type erasure.swift */,
+				B1826F372603DCA600C8FC20 /* 04. How to combine Core Data and SwiftUI.swift */,
 			);
 			path = "Day One";
 			sourceTree = "<group>";
