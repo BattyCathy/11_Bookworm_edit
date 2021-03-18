@@ -13,6 +13,11 @@
 		B1826F262603DC8C00C8FC20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1826F252603DC8C00C8FC20 /* Preview Assets.xcassets */; };
 		B1826F282603DC8C00C8FC20 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F272603DC8C00C8FC20 /* Persistence.swift */; };
 		B1826F2B2603DC8C00C8FC20 /* _1_Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1826F292603DC8C00C8FC20 /* _1_Bookworm.xcdatamodeld */; };
+		B1826F3D2603DCA700C8FC20 /* 04. How to combine Core Data and SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F372603DCA600C8FC20 /* 04. How to combine Core Data and SwiftUI.swift */; };
+		B1826F3E2603DCA700C8FC20 /* 00. TOC One.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F382603DCA600C8FC20 /* 00. TOC One.swift */; };
+		B1826F3F2603DCA700C8FC20 /* 01. Bookworm introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F392603DCA600C8FC20 /* 01. Bookworm introduction.swift */; };
+		B1826F402603DCA700C8FC20 /* 02. Crating a custom component with @Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F3A2603DCA600C8FC20 /* 02. Crating a custom component with @Binding.swift */; };
+		B1826F412603DCA700C8FC20 /* 03. Using size classes with AnyView type erasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1826F3B2603DCA600C8FC20 /* 03. Using size classes with AnyView type erasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B1826F272603DC8C00C8FC20 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B1826F2A2603DC8C00C8FC20 /* _1_Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		B1826F2C2603DC8C00C8FC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1826F372603DCA600C8FC20 /* 04. How to combine Core Data and SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. How to combine Core Data and SwiftUI.swift"; sourceTree = "<group>"; };
+		B1826F382603DCA600C8FC20 /* 00. TOC One.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "00. TOC One.swift"; sourceTree = "<group>"; };
+		B1826F392603DCA600C8FC20 /* 01. Bookworm introduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "01. Bookworm introduction.swift"; sourceTree = "<group>"; };
+		B1826F3A2603DCA600C8FC20 /* 02. Crating a custom component with @Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Crating a custom component with @Binding.swift"; sourceTree = "<group>"; };
+		B1826F3B2603DCA600C8FC20 /* 03. Using size classes with AnyView type erasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. Using size classes with AnyView type erasure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 				B1826F272603DC8C00C8FC20 /* Persistence.swift */,
 				B1826F2C2603DC8C00C8FC20 /* Info.plist */,
 				B1826F292603DC8C00C8FC20 /* _1_Bookworm.xcdatamodeld */,
+				B1826F332603DCA600C8FC20 /* Notes */,
 				B1826F242603DC8C00C8FC20 /* Preview Content */,
 			);
 			path = 11_Bookworm;
@@ -73,6 +84,50 @@
 				B1826F252603DC8C00C8FC20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1826F332603DCA600C8FC20 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B1826F362603DCA600C8FC20 /* Day One */,
+				B1826F352603DCA600C8FC20 /* Day Two */,
+				B1826F3C2603DCA600C8FC20 /* Day Three */,
+				B1826F342603DCA600C8FC20 /* Day Four */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		B1826F342603DCA600C8FC20 /* Day Four */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day Four";
+			sourceTree = "<group>";
+		};
+		B1826F352603DCA600C8FC20 /* Day Two */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day Two";
+			sourceTree = "<group>";
+		};
+		B1826F362603DCA600C8FC20 /* Day One */ = {
+			isa = PBXGroup;
+			children = (
+				B1826F372603DCA600C8FC20 /* 04. How to combine Core Data and SwiftUI.swift */,
+				B1826F382603DCA600C8FC20 /* 00. TOC One.swift */,
+				B1826F392603DCA600C8FC20 /* 01. Bookworm introduction.swift */,
+				B1826F3A2603DCA600C8FC20 /* 02. Crating a custom component with @Binding.swift */,
+				B1826F3B2603DCA600C8FC20 /* 03. Using size classes with AnyView type erasure.swift */,
+			);
+			path = "Day One";
+			sourceTree = "<group>";
+		};
+		B1826F3C2603DCA600C8FC20 /* Day Three */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day Three";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1826F412603DCA700C8FC20 /* 03. Using size classes with AnyView type erasure.swift in Sources */,
 				B1826F282603DC8C00C8FC20 /* Persistence.swift in Sources */,
 				B1826F212603DC8900C8FC20 /* ContentView.swift in Sources */,
+				B1826F3E2603DCA700C8FC20 /* 00. TOC One.swift in Sources */,
+				B1826F402603DCA700C8FC20 /* 02. Crating a custom component with @Binding.swift in Sources */,
 				B1826F1F2603DC8900C8FC20 /* _1_BookwormApp.swift in Sources */,
 				B1826F2B2603DC8C00C8FC20 /* _1_Bookworm.xcdatamodeld in Sources */,
+				B1826F3D2603DCA700C8FC20 /* 04. How to combine Core Data and SwiftUI.swift in Sources */,
+				B1826F3F2603DCA700C8FC20 /* 01. Bookworm introduction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
