@@ -39,7 +39,7 @@ struct ContentView: View {
         
         @State private var rememberMe = false
         VStack {
-            PushButton(title: "Remember Me", isOn: rememberMe)
+            PushButton(title: "Remember Me", isOn: $rememberMe)
             Text(rememberMe ? "On" : "Off")
         }
         
