@@ -18,7 +18,7 @@ struct ContentView: View {
     
     struct PushButton: View {
         let title: String
-        @State var isOn: Bool
+        @Binding var isOn: Bool
         
         var onColors = [Color.red, Color.yellow]
         var offColors = [Color(white: 0.6), Color(white: 0.4)]
