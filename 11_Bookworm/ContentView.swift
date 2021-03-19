@@ -36,21 +36,13 @@ struct ContentView: View {
     }
 
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-            }
-            .onDelete(perform: deleteItems)
+        
+        @State private var rememberMe = false
+        VStack {
+            PushButton(title: "Remember Me", isOn: rememberMe)
+            Text(rememberMe ? "On" : "Off")
         }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
-
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
-            }
-        }
+        
     }
 
     private func addItem() {
